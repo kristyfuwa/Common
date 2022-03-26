@@ -9,10 +9,13 @@ public:
 
 	float		dot(const Vector3& vec3);
 	Vector3		cross(const Vector3& vec3);
+	Vector3		normalize();
+	float		length();
 
 	Vector3		operator-(const Vector3& vec);
 	Vector3		operator+(const Vector3& vec);
 	Vector3		operator*(float v);
+	Vector3		operator/(float v);
 
 	static const Vector3 ZERO;
 private:

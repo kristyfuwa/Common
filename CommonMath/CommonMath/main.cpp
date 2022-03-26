@@ -1,6 +1,9 @@
-#include <stdio.h>
+#include <windows.h>
+#include "TSApplication.h"
 
-int main(int argc, char* argv)
+
+int __stdcall WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPSTR lpCmdLine, _In_ int nShowCmd)
 {
+	TSApplication app;
 	return 0;
 }
