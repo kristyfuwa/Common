@@ -13,9 +13,12 @@ public:
 	Vector2		operator+(const Vector2& vec);
 	Vector2		operator*(float v);
 	Vector2		operator/(float v);
+	float		operator[](int index)const;
+	float&		operator[](int index);
 
 	static const Vector2 ZERO;
-private:
+
+public:
 	float m_fx;
 	float m_fy;
 };

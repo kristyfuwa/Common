@@ -58,3 +58,23 @@ Vector3 Vector3::operator/(float v)
 {
 	return Vector3(m_fx / v, m_fy / v, m_fz / v);
 }
+
+float& Vector3::operator[](int index)
+{
+	if (index == 0)
+		return m_fx;
+	else if (index == 1)
+		return m_fy;
+	else
+		return m_fz;
+}
+
+float Vector3::operator[](int index) const
+{
+	if (index == 0)
+		return m_fx;
+	else if (index == 1)
+		return m_fy;
+	else
+		return m_fz;
+}

@@ -16,9 +16,11 @@ public:
 	Vector3		operator+(const Vector3& vec);
 	Vector3		operator*(float v);
 	Vector3		operator/(float v);
+	float		operator[](int index)const;
+	float&		operator[](int index);
 
 	static const Vector3 ZERO;
-private:
+public:
 	float m_fx;
 	float m_fy;
 	float m_fz;

@@ -48,3 +48,19 @@ Vector2 Vector2::operator/(float v)
 	return Vector2(m_fx / v, m_fy / v);
 }
 
+float& Vector2::operator[](int index)
+{
+	if (index == 0)
+		return m_fx;
+	else
+		return m_fy;
+}
+
+float Vector2::operator[](int index) const
+{
+	if (index == 0)
+		return m_fx;
+	else
+		return m_fy;
+}
+
