@@ -36,3 +36,6 @@ CommonMath/CommonMath/Debug/Model.obj
 CommonMath/CommonMath/Debug/main.obj
 CommonMath/.vs/CommonMath/v15/ipch/AutoPCH/86874a95fbc5612d/EVILDOERSHADER.ipch
 CommonMath/.vs/CommonMath/v15/ipch/AutoPCH/74a9ff1d51266cde/EVILDOERSHADER.ipch
+CommonMath/.vs/CommonMath/v15/ipch/AutoPCH/2b5b1786a9b8f456/MATRIX4X4.ipch
+CommonMath/CommonMath/Debug/Matrix4x4.obj
+CommonMath/CommonMath/Debug/EvildoerShader.obj

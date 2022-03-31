@@ -130,6 +130,7 @@
     <ClCompile Include="CommonMath.cpp" />
     <ClCompile Include="EvildoerShader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matrix4x4.cpp" />
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="TGAImage.cpp" />
     <ClCompile Include="Vector2.cpp" />
@@ -138,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="CommonMath.h" />
     <ClInclude Include="EvildoerShader.h" />
+    <ClInclude Include="Matrix4x4.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="TGAImage.h" />
     <ClInclude Include="Vector2.h" />
